@@ -17,12 +17,12 @@ Every stream message is delayed by a given time and the value of the `"epoch"` f
 
 # Requirements
 * C++ compiler (defaults to gcc)
-* CMake
-* https://www.openssl.org/[OpenSSL]
+* [CMake](https://cmake.org/)
+* [OpenSSL](https://www.openssl.org/)
 ```
 $ sudo apt-get install libssl-dev
 ```
-* http://www.boost.org/[Boost]
+* [Boost](http://www.boost.org/)
 ```
 $ sudo apt-get install libboost-all-dev
 ```
