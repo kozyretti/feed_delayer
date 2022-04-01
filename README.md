@@ -29,9 +29,9 @@ $ sudo apt-get install libboost-all-dev
 
 # Usage
 ```
-Usage: ticks_app <delay_in_seconds> <symbol_name>
+Usage: feed_delayer <delay_in_seconds> <symbol_name>
 Example:
-    ticks_app 60 R_100
+    feed_delayer 60 R_100
 ```
 * Stream output to STDOUT.
 * Service messages output to STDERR.

@@ -8,9 +8,9 @@ namespace ssl = boost::asio::ssl;       // from <boost/asio/ssl.hpp>
 int main(int argc, char** argv) {
     if(argc < 3)
     {
-        std::cerr << "Usage: ticks_app <delay_in_seconds> <symbol_name>" << std::endl
+        std::cerr << "Usage: feed_delayer <delay_in_seconds> <symbol_name>" << std::endl
                   << "Example:" << std::endl
-                  << "    ticks_app 60 R_100" << std::endl;
+                  << "    feed_delayer 60 R_100" << std::endl;
         return EXIT_FAILURE;
     }
 
